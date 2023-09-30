@@ -7,7 +7,8 @@ var tag =
     EnvironmentVariable("Tag", (string)null);
 var platform =
     HasArgument("Platform") ? Argument<string>("Platform") :
-    EnvironmentVariable("Platform", "linux/amd64,linux/arm64");
+    // EnvironmentVariable("Platform", "linux/amd64,linux/arm64");
+    EnvironmentVariable("Platform", "linux/amd64");
 var push =
     HasArgument("Push") ? Argument<bool>("Push") :
     EnvironmentVariable("Push", false);
