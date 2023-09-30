@@ -12,6 +12,7 @@
   <PropertyGroup Label="Versioning">
     <MinVerDefaultPreReleasePhase>preview</MinVerDefaultPreReleasePhase>
     <MinVerVerbosity>normal</MinVerVerbosity>
+    <MinVerIgnoreHeight>true</MinVerIgnoreHeight>
   </PropertyGroup>
 
   <ItemGroup Label="Package References">
