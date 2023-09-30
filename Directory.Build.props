@@ -10,7 +10,7 @@
   </PropertyGroup>
 
   <PropertyGroup Label="Versioning">
-    <MinVerDefaultPreReleasePhase>preview</MinVerDefaultPreReleasePhase>
+    <!-- <MinVerDefaultPreReleasePhase>preview</MinVerDefaultPreReleasePhase> -->
     <MinVerVerbosity>normal</MinVerVerbosity>
     <MinVerIgnoreHeight>true</MinVerIgnoreHeight>
   </PropertyGroup>
